@@ -1,15 +1,38 @@
-# FinGPT
-
-
 # 🧠 FinGPT - AI-Powered Financial Assistant
 
-FinGPT is an open-source financial assistant powered by Large Language Models (LLMs). It helps users analyze market trends, generate financial reports, answer finance-related questions, and more.
+FinGPT is an open-source financial assistant powered by a local Large Language Model (LLM). It helps users analyze market trends, generate financial reports, answer finance-related questions, and more — all privately and offline.
 
-> ⚠️ **Note:** Due to the large size of the LLM model files, they are **not included** in this repository. See the [Model Setup](#model-setup) section for guidance.
+> ⚠️ **Model Note:** This project uses the `llama-2-7b-chat.gguf` model, which will be automatically downloaded from the author’s Google Drive during first run.
 
 ---
-first run the project after it automatically download use my drive 
-after download you see the Fingpt folder click then you see data and models folder just open models and then open models folder copy the (llama-2-7b-chat.gguf) models for run  one more use this version for this project 
 
+## 🧠 Model Setup (Auto-Downloaded)
 
+### ✅ First-Time Use:
 
+When you run the project for the first time, it will automatically:
+
+1. Download the required LLM model from the developer's **Google Drive**.
+2. Create a folder named `FinGPT/` in your local environment.
+3. Inside `FinGPT/`, you'll find:
+    ```
+    FinGPT/
+    ├── data/
+    └── models/
+            └── llama-2-7b-chat.gguf
+    ```
+
+4. Go to:
+5. Ensure that the file `llama-2-7b-chat.gguf` is present in that folder.
+
+> ✅ **This version (`llama-2-7b-chat.gguf`) is required** for correct operation of the FinGPT system.
+
+If the model file is missing or corrupted, please manually download and place it in that directory.
+
+---
+
+## 🛠️ Quick Start
+
+```bash
+git clone https://github.com/JKalonewolf/FinGPT.git
+cd FinGPT
